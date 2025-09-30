@@ -1,0 +1,210 @@
+.about_background
+{
+   
+    height: 600px;
+    width: 100%;
+    background-image: url(https://www.jayash.in/assets/about-us-banner-g-AY9RIu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+/*  */
+.welcome-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  gap: 40px;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.content {
+  flex: 1;
+}
+
+.content h1 {
+  font-size: 32px;
+  color: #1c2b45;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4a4a4a;
+  margin-bottom: 16px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   
+}
+
+/*  */
+.philosophy-section {
+  text-align: center;
+  padding: 60px 30px;
+  background: linear-gradient(to right, #e6ffff, #85d9e7, #e6ffff); /* soft gradient */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.philosophy-section h2 {
+  font-size: 28px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.philosophy-section p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.8;
+}
+
+/*  */
+/*  */
+.philosophy-section2 {
+  text-align: center;
+  padding: 60px 30px;
+  background: linear-gradient(to right, #e4f0f0, #85d9e7, #e7f3f3); /* soft gradient */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.philosophy-section2 h2 {
+  font-size: 28px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.philosophy-section2 p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.5;
+}
+/*  */
+.why-choose {
+  padding: 60px 30px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.why-choose h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #1a2b48;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  text-align: left;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.features ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  max-width: 450px;
+}
+
+.features li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.features li strong {
+  color: #1c2b45;
+}
+
+/*  */
+.founder-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fbfd;
+  padding: 60px 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  gap: 40px;
+  margin: auto;
+}
+
+.founder-image {
+  position: relative;
+  max-width: 550px;
+  box-shadow: 0px 1px 8px #868484;
+  border-radius: 20px;
+  height: auto;
+  text-align: center;
+}
+
+.founder-image img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.founder-label {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-align: left;
+  color: #000;
+}
+
+.founder-label p {
+  margin: 0;
+  font-size: 20px;
+  color: #555;
+}
+
+.founder-label h3 {
+  margin: 5px 0 0;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Georgia', serif;
+  line-height: 1.2;
+}
+
+.founder-content {
+  max-width: 700px;
+}
+
+.founder-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #1a2b48;
+}
+
+.founder-content p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #5e5b5b;
+  margin-bottom: 20px;
+}
+
+.founder-content strong {
+  font-weight: bold;
+  color: #1c2b45;
+}
